@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Generate a complete build brief",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "build brief generation",
+      "primary conversion workflow",
+      "email handoff"
+    ],
+    "description": "Verifies a prospective client can provide project context and receive a portable build brief with a send action.",
+    "steps": [
+      "Scroll to the Start a build section",
+      "Enter business name \"Northstar Dental\" and email \"owner@example.com\"",
+      "Select \"Generate qualified leads\" as the primary goal and submit the form"
+    ],
+    "expected": "A visible BUILD BRIEF READY result appears containing Northstar Dental and an Email artificialBRIDGE action."
+  },
+  {
+    "name": "Reject a build brief without ownership details",
+    "viewport": "desktop",
+    "covers": [
+      "build brief validation",
+      "invalid submission guardrail"
+    ],
+    "description": "Verifies the build brief cannot be generated when the business name and email are missing.",
+    "steps": [
+      "Scroll to the Start a build section",
+      "Leave Business name and Email empty",
+      "Select Generate build brief"
+    ],
+    "expected": "A visible validation message asks for the business name and email, and no BUILD BRIEF READY result is shown."
+  },
+  {
+    "name": "Use the mobile navigation to reach the method",
+    "viewport": "mobile",
+    "covers": [
+      "mobile navigation",
+      "responsive interaction",
+      "method navigation"
+    ],
+    "description": "Verifies mobile visitors can open navigation and move to the build method without a desktop-only menu dependency.",
+    "steps": [
+      "Open the mobile navigation menu",
+      "Select Method",
+      "Observe the destination section"
+    ],
+    "expected": "The mobile menu closes and the THE METHOD section is visible."
+  },
+  {
+    "name": "Switch the live website showcase mode",
+    "viewport": "desktop",
+    "covers": [
+      "interactive hero showcase",
+      "authority conversion product modes"
+    ],
+    "description": "Verifies the hero demonstration changes its content when the visitor selects a different website system mode.",
+    "steps": [
+      "Locate the live-build demonstration in the hero",
+      "Select the conversion tab",
+      "Read the demonstration headline and tags"
+    ],
+    "expected": "The demonstration changes to the CONVERSION SYSTEM state and shows the headline \"Turn attention into a clear next action.\""
+  },
+  {
+    "name": "Show the current artificialBRIDGE motion identity",
+    "viewport": "desktop",
+    "covers": [
+      "current Span logo",
+      "animated motion signature",
+      "Connector app icon",
+      "brand motion gallery"
+    ],
+    "description": "Verifies the approved site includes the current artificialBRIDGE identity system without replacing the rest of the site.",
+    "steps": [
+      "Scroll past Selected Client Work",
+      "Locate CURRENT BRAND / MOTION SYSTEM",
+      "Inspect the three brand motion cards"
+    ],
+    "expected": "The section shows FULL MOTION SIGNATURE, SPAN / LOADER EXECUTION, and CONNECTOR / APP ICON with the current broken-arch Span identity; the connection point is a larger solid gold circle and emits an outward gold ring that fades after connection."
+  }
+]
