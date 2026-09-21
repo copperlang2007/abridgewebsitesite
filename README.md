@@ -18,7 +18,9 @@ npm run build
 
 ## Deployment
 
-The production target is Vercel. The `main` branch is the production branch and should remain continuously deployable.
+The production target is Vercel. The `main` branch is the production branch and is connected through Vercel Git Integration for automatic production deployments.
+
+Production: https://abridgewebsitesite.vercel.app/
 
 ## CI
 
