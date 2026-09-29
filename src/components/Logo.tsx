@@ -14,8 +14,8 @@ export default function Logo({ size = 'md', className = '' }: LogoProps) {
       <img
         className='brand-current-img'
         src={useTagline
-          ? 'https://www.theartificialbridge.com/brandAssets/svg/lockup-horizontal-tagline-white.svg'
-          : 'https://www.theartificialbridge.com/brandAssets/svg/lockup-horizontal-white.svg'}
+          ? '/brand/lockup-horizontal-tagline-white.svg'
+          : '/brand/lockup-horizontal-white.svg'}
         alt='artificialBRIDGE'
         width={widths[size]}
       />
