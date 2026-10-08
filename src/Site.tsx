@@ -352,6 +352,110 @@ export default function Site() {
                 <b>OPEN LIVE ↗</b>
               </div>
             </a>
+            <a
+              className="work-card glass-panel youngrudyt"
+              href="https://youngrudyt.theartificialbridge.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="work-top">
+                <span>LIVE SITE</span>
+                <span>03</span>
+              </div>
+              <div className="work-visual">
+                <div className="mini-nav">
+                  <b>YR</b>
+                  <span>Music · Artwork · $1 MP3s</span>
+                </div>
+                <div className="mini-hero luxury">
+                  <small>SWANGIN AND SANGIN</small>
+                  <strong>Young Rudy T.</strong>
+                  <i />
+                </div>
+                <div className="mini-panels">
+                  <span />
+                  <span />
+                  <span />
+                  <span />
+                </div>
+              </div>
+              <div className="work-meta">
+                <div>
+                  <strong>Young Rudy T.</strong>
+                  <span>Artist site · streaming · direct-to-fan downloads</span>
+                </div>
+                <b>OPEN LIVE ↗</b>
+              </div>
+            </a>
+            <a
+              className="work-card glass-panel gohire"
+              href="https://gohire.theartificialbridge.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="work-top">
+                <span>LIVE PRODUCT</span>
+                <span>04</span>
+              </div>
+              <div className="work-visual">
+                <div className="mini-nav">
+                  <b>goHIRE</b>
+                  <span>AI hiring · Phone-first teams</span>
+                </div>
+                <div className="mini-hero">
+                  <small>AI VOICE INTERVIEWS</small>
+                  <strong>Hire phone-first talent.</strong>
+                  <i />
+                </div>
+                <div className="mini-panels">
+                  <span />
+                  <span />
+                  <span />
+                </div>
+              </div>
+              <div className="work-meta">
+                <div>
+                  <strong>goHIRE</strong>
+                  <span>AI hiring engine · voice interviews · talent certification</span>
+                </div>
+                <b>OPEN LIVE ↗</b>
+              </div>
+            </a>
+            <a
+              className="work-card glass-panel cheer"
+              href="https://www.guntercheerbooster.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="work-top">
+                <span>LIVE SITE</span>
+                <span>05</span>
+              </div>
+              <div className="work-visual">
+                <div className="mini-nav">
+                  <b>GCBC</b>
+                  <span>501(c)(3) · Gunter, Texas</span>
+                </div>
+                <div className="mini-hero">
+                  <small>SPONSOR GUNTER TIGERS CHEER</small>
+                  <strong>Back the Tigers.</strong>
+                  <i />
+                </div>
+                <div className="mini-panels">
+                  <span />
+                  <span />
+                  <span />
+                  <span />
+                </div>
+              </div>
+              <div className="work-meta">
+                <div>
+                  <strong>Gunter Cheer Booster Club</strong>
+                  <span>Nonprofit sponsorship site · four giving levels · published books</span>
+                </div>
+                <b>OPEN LIVE ↗</b>
+              </div>
+            </a>
           </div>
         </section>
 
