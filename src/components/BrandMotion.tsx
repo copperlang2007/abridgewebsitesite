@@ -49,7 +49,7 @@ export default function BrandMotion() {
           <div className='brand-motion-meta'><span>03</span><b>CONNECTOR / APP ICON</b></div>
           <div className='brand-motion-stage'>
             <img
-              src='https://www.theartificialbridge.com/brandAssets/svg/app-icon.svg'
+              src='/brand/app-icon.svg'
               alt='artificialBRIDGE Connector app icon'
               className='connector-reference'
             />
